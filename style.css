@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,15 +8,19 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     margin: 20px 0;
 }
 
 header {
+  
+    margin-bottom: 50px;
+}
 
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header img {
@@ -31,7 +35,6 @@ header img {
 
 .links {
     display: flex;
-    
 }
 
 .links a {
@@ -43,7 +46,68 @@ header img {
     color: black;
     
 }
-.logo {
-    border: 2px solid green;
+
+.card-sup {
+    display: flex;
+    width: 100%;
+
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+}
+.card-text {
+    box-sizing: border-box;  
+}   
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 10px 0;  
+}
+
+.card-text p {
+    margin-bottom: 10px;
+}
+
+.card-text input {
+    padding: 0 10px;
+    height: 30px;
+    width: 350px;   
+}
+
+.card-text button {
+    height: 5vh;
+    width: 13vw;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 14px 2px 33px -6px rgba(0,0,0,0.75);
+}
+
+.card-img {
+    width: 50%;
+}
+
+.card-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.curve-img {
+    margin-top: 120px;
+    background-image: url(img/curve_desktop.svg);
+    padding-top: 120px;
+    
+}
+
+
+.color-lightgray {
+    background-color: #F8F8FE;
 }
 
