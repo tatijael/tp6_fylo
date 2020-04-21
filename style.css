@@ -96,8 +96,8 @@ h2 {
 }
 
 .card-img img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
 }
 
 .curve-img {
@@ -115,7 +115,10 @@ h2 {
     color: #92CAC0;
     display: flex;
     align-items: center;  
+    text-decoration: none;
+    
 }
+
 
 .card-text a::after {
     
@@ -207,3 +210,40 @@ footer .footer-box img {
 	align-items: center;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .card-sup {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .card-img {
+        width: 100%
+    }   
+
+    .card-text button {
+
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 10px;
+
+    }
+
+    .card-text .post {
+    height: 20px
+    }
+    
+    .curve-img {
+        
+    }
+
+    /* .pre-footer .container .card-text {
+        width: -1;
+    } */
+}
+ 
